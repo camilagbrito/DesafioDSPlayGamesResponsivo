@@ -149,6 +149,7 @@ a, a:hover{
     background-color: var(--white);
     margin: 0 auto;
     margin-bottom: 25px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);
     
 }
 
@@ -192,6 +193,77 @@ a, a:hover{
 
 .form-card{
     width: 300px;
-    background-color: var(--light-gray) ;
+    background-color: var(--light-gray);
+    color: var(--gray);
+    padding: 50px 10px 40px 10px;
+    margin: 0 auto;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.5);
 }
+
+.inputs-text input{
+   width: 280px;
+   height: 50px;
+   margin-bottom: 20px;
+   border-radius: 4px;
+   border: 1px solid var(--gray);
+  
+}
+
+.inputs-text input::placeholder{
+    color: #c4c4c4;
+    padding: 20px;
+}
+
+input[type=radio], input[type=checkbox]{
+   width: 23px;
+   height: 23px;
+}
+
+#ctrl-plat{
+   margin: 10px 0;
+}
+
+#ctrl-plat label{
+    vertical-align: top;
+}
+
+#ctrl-checkbox label{
+    vertical-align: top;
+}
+
+#ctrl-checkbox{
+    margin: 20px 0;
+}
+
+.button-submit{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--light-red);
+    border-color: var(--light-red);
+    border-style: none;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px 18px;
+}
+
+.button-reset{
+    width: 244px;
+    height: 67px;
+    border-radius: 8px;
+    background-color: var(--white);
+    border-color: var(--light-red); 
+    color: var(--light-red);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 20px 18px 0px 18px;
+    align-items: center;
+}
+
+
+
+
 

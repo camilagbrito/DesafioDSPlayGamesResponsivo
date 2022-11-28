@@ -117,11 +117,11 @@
         <h2>Faça sua inscrição</h2>
         <div class="form-card">
           <form action="site.html">
-            <div>
+            <div class="inputs-text">
               <label for="ctrl-name"></label>
               <input id="ctrl-name" type="text" placeholder="Nome completo">
             </div>
-            <div>
+            <div class="inputs-text">
               <label for="ctrl-email"></label>
               <input id="crtl-email" type="text" placeholder="Email">
             </div>
@@ -130,25 +130,25 @@
               <label for="ctrl-plat"> Qual a sua plataforma preferida?</label>
               <div id="ctrl-plat">
                 <div>
-                  <input type="radio" name="pc" id="pc">
+                  <input type="radio" name="plat" id="pc">
                   <label for="pc">PC</label>
                 </div>
                 <div>
-                  <input type="radio" name="xbox" id="xbox">
-                  <label for="pc">Xbox</label>
+                  <input type="radio" name="plat" id="xbox">
+                  <label for="xbox">Xbox</label>
                 </div>
                 <div>
-                  <input type="radio" name="ps" id="ps">
-                  <label for="pc">Playstation</label>
+                  <input type="radio" name="plat" id="ps">
+                  <label for="ps">Playstation</label>
                 </div>
               </div>
             </div>
-            <div>
+            <div id="ctrl-checkbox">
               <input type="checkbox" name="sendnews" id="sendnews">
               <label for="sendnews">Desejo receber novidades</label>
             </div>
-            <input type="submit" value="Enviar">
-            <input type="reset">
+            <input class="button-submit" type="submit" value="Enviar">
+            <input class="button-reset" type="reset" value="Limpar">
         </form>
       </div>
       </section>
