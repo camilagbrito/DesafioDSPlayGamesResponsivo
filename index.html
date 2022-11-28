@@ -5,30 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DSPlayerGames</title>
+    <link rel="stylesheet" href="css/style.css">
+
   </head>
 
   <body>
-    <header>
-      <h1>DSPLayGames</h1>
-      <nav>
-        <ul>
-          <li><a href="#news">Notícias</a></li>
-          <li><a href="#games">Jogos</a></li>
-          <li><a href="#signUp">Inscreva-se</a></li>
-        </ul>
-      </nav>
-      <img src="img/user.png" alt="Usuário" />
+    <header class="nav-container">
+      <div id="navegacao" class="container">
+          <h1>DSPlayGames</h1>
+          <nav class="barra-nav">
+            <ul>
+              <li><a href="#news">Notícias</a></li>
+              <li><a href="#games">Jogos</a></li>
+              <li><a href="#signUp">Inscreva-se</a></li>
+            </ul>
+          </nav>
+          <img src="img/user.svg" alt="Usuário">
+        </div>
+       
+    </div>
     </header>
     <main>
-      <section id="news">
+      <section id="news" class="container">
         <h2>Últimas notícias</h2>
-        <div>
+        <div class="news-card">
           <h3>Título principal da notícia</h3>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             vitae ducimus aperiam.
           </h4>
-          <p>23/02/2022</p>
+          <hr class="border-green">
+          <p class="color-green">23/02/2022</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis
@@ -48,99 +55,106 @@
             Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa
             fuga ...
           </p>
-          <h4><a href="principal-noticia.html">Ler mais...</a></h4>
+          <a href="principal-noticia.html">Ler mais...</a>
         </div>
-        <div>
+        <div class="news-card">
           <h3>Título principal da notícia</h3>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             vitae ducimus aperiam.
           </h4>
-          <p>23/02/2022</p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
-            vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis
-            nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam
-            laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad
-            alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam
-            esse nisi asperiores in nulla dicta distinctio aliquid ullam
-            aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a.
-            Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati
-            reiciendis quae, numquam consectetur sed animi temporibus inventore
-            nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati
-            similique quae assumenda culpa ab sit voluptatum molestiae
-            voluptates facilis optio recusandae tempore nihil atque et nesciunt
-            nemo perferendis adipisci harum. Corrupti eum autem veritatis et
-            beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo
-            odio? Eligendi sapiente id enim quibusdam, repudiandae optio error!
-            Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa
-            fuga ...
-          </p>
-          <h4><a href="principal-noticia.html">Ler mais...</a></h4>
-        </div>
-        <input type="button" value="Carregar mais" />
-      </section>
-      <section id="games">
-        <h2>Jogos</h2>
-        <div>
-          <img src="img/game.png" alt="Game" />
-          <h4>Horizon Forbidden West</h4>
-          <p><span>De</span> Sony Interactive Entertainment</p>
-          <p>9.7</p>
-        </div>
-        <div>
-          <img src="img/game.png" alt="Game" />
-          <h4>Horizon Forbidden West</h4>
-          <p><span>De</span> Sony Interactive Entertainment</p>
-          <p>9.7</p>
-        </div>
-        <div>
-          <img src="img/game.png" alt="Game" />
-          <h4>Horizon Forbidden West</h4>
-          <p><span>De</span> Sony Interactive Entertainment</p>
-          <p>9.7</p>
-        </div>
-      </section>
-      <section id="signUp">
-        <h2>Faça sua inscrição</h2>
-        <form action="site.html">
-          <div>
-            <label for="ctrl-name"></label>
-            <input id="ctrl-name" type="text" placeholder="Nome completo" />
-          </div>
-          <div>
-            <label for="ctrl-email"></label>
-            <input id="crtl-email" type="text" placeholder="Email" />
-          </div>
+          <hr class="border-green">
 
-          <div>
-            <label for="ctrl-plat"> Qual a sua plataforma preferida?</label>
-            <div id="ctrl-plat">
-              <div>
-                <input type="radio" name="pc" id="pc" />
-                <label for="pc">PC</label>
-              </div>
-              <div>
-                <input type="radio" name="xbox" id="xbox" />
-                <label for="pc">Xbox</label>
-              </div>
-              <div>
-                <input type="radio" name="ps" id="ps" />
-                <label for="pc">Playstation</label>
+          <p class="color-green">23/02/2022</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis
+            nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam
+            laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad
+            alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam
+            esse nisi asperiores in nulla dicta distinctio aliquid ullam
+            aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a.
+            Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati
+            reiciendis quae, numquam consectetur sed animi temporibus inventore
+            nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati
+            similique quae assumenda culpa ab sit voluptatum molestiae
+            voluptates facilis optio recusandae tempore nihil atque et nesciunt
+            nemo perferendis adipisci harum. Corrupti eum autem veritatis et
+            beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo
+            odio? Eligendi sapiente id enim quibusdam, repudiandae optio error!
+            Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa
+            fuga ...
+          </p>
+          <a href="principal-noticia.html">Ler mais...</a>
+        </div>
+          <div class="button">
+            <input type="submit" value="Carregar mais">
+          </div>
+     
+      </section>
+      <section id="games" class="container">
+        <h2>Jogos</h2>
+        <div class="games-card">
+          <img src="img/game.png" alt="Game">
+          <h4>Horizon Forbidden West</h4>
+          <p><span>De</span> Sony Interactive Entertainment</p>
+          <p class="grade">9.7</p>
+        </div>
+        <div class="games-card">
+          <img src="img/game.png" alt="Game">
+          <h4>Horizon Forbidden West</h4>
+          <p><span>De</span> Sony Interactive Entertainment</p>
+          <p class="grade">9.7</p>
+        </div>
+        <div class="games-card">
+          <img src="img/game.png" alt="Game">
+          <h4>Horizon Forbidden West</h4>
+          <p><span>De</span> Sony Interactive Entertainment</p>
+          <p class="grade">9.7</p>
+        </div>
+      </section>
+      <section id="signup" class="container">
+        <h2>Faça sua inscrição</h2>
+        <div class="form-card">
+          <form action="site.html">
+            <div>
+              <label for="ctrl-name"></label>
+              <input id="ctrl-name" type="text" placeholder="Nome completo">
+            </div>
+            <div>
+              <label for="ctrl-email"></label>
+              <input id="crtl-email" type="text" placeholder="Email">
+            </div>
+  
+            <div>
+              <label for="ctrl-plat"> Qual a sua plataforma preferida?</label>
+              <div id="ctrl-plat">
+                <div>
+                  <input type="radio" name="pc" id="pc">
+                  <label for="pc">PC</label>
+                </div>
+                <div>
+                  <input type="radio" name="xbox" id="xbox">
+                  <label for="pc">Xbox</label>
+                </div>
+                <div>
+                  <input type="radio" name="ps" id="ps">
+                  <label for="pc">Playstation</label>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div>
-            <input type="checkbox" name="sendnews" id="sendnews">
-            <label for="sendnews">Desejo receber novidades</label>
-          </div>
-          <input type="submit" value="Enviar">
-          <input type="reset">
+            <div>
+              <input type="checkbox" name="sendnews" id="sendnews">
+              <label for="sendnews">Desejo receber novidades</label>
+            </div>
+            <input type="submit" value="Enviar">
+            <input type="reset">
         </form>
+      </div>
       </section>
     </main>
     <footer>
+      <div class="container"> 
         <div>
             <div>
                 <a href="https://www.instagram.com/dsplaygames">@dsplaygames</a>
@@ -149,18 +163,18 @@
                 <a href="https://www.youtube.com/dsplaygames">/dsplaygames</a>
             </div>
         </div>
-       <div>
-        <p>Play Games Ltda. Todos direitos reservados</p>  
-       </div>
-       <div>
         <div>
+          <p>Play Games Ltda. Todos direitos reservados</p>  
+        </div>
+        <div>
+          <div>
             <a href="politica-privacidade.html">Política de privacidade</a>
-        </div>
-        <div>
+          </div>
+          <div>
             <a href="termos-uso.html">Termos de uso</a>
+         </div>
         </div>
-       </div>
-      
+      </div>
     </footer>
 
   </body>
