@@ -13,14 +13,16 @@
     <header class="nav-container">
       <div id="navegacao" class="container">
           <h1>DSPlayGames</h1>
-          <nav class="barra-nav">
-            <ul>
-              <li><a href="#news">Notícias</a></li>
-              <li><a href="#games">Jogos</a></li>
-              <li><a href="#signUp">Inscreva-se</a></li>
-            </ul>
-          </nav>
-          <img src="img/user.svg" alt="Usuário">
+          <div class="lat-direita">
+            <nav class="barra-nav">
+              <ul>
+                <li><a href="#news">Notícias</a></li>
+                <li><a href="#games">Jogos</a></li>
+                <li><a href="#signUp">Inscreva-se</a></li>
+              </ul>
+            </nav>
+            <img src="img/user.svg" alt="Usuário">
+          </div>
         </div>
        
     </div>
@@ -92,26 +94,28 @@
           </div>
      
       </section>
-      <section id="games" class="container">
+      <section id="games">
         <h2>Jogos</h2>
-        <div class="games-card">
-          <img src="img/game.png" alt="Game">
-          <h4>Horizon Forbidden West</h4>
-          <p><span>De</span> Sony Interactive Entertainment</p>
-          <p class="grade">9.7</p>
-        </div>
-        <div class="games-card">
-          <img src="img/game.png" alt="Game">
-          <h4>Horizon Forbidden West</h4>
-          <p><span>De</span> Sony Interactive Entertainment</p>
-          <p class="grade">9.7</p>
-        </div>
-        <div class="games-card">
-          <img src="img/game.png" alt="Game">
-          <h4>Horizon Forbidden West</h4>
-          <p><span>De</span> Sony Interactive Entertainment</p>
-          <p class="grade">9.7</p>
-        </div>
+        <div class="games-cards">
+          <div class="games-card container-without-padding">
+            <img src="img/game.png" alt="Game">
+            <h4>Horizon Forbidden West</h4>
+            <p><span>De</span> Sony Interactive Entertainment</p>
+            <p class="grade">9.7</p>
+          </div>
+          <div class="games-card container-without-padding">
+            <img src="img/game.png" alt="Game">
+            <h4>Horizon Forbidden West</h4>
+            <p><span>De</span> Sony Interactive Entertainment</p>
+            <p class="grade">9.7</p>
+          </div>
+          <div class="games-card .container-without-padding">
+            <img src="img/game.png" alt="Game">
+            <h4>Horizon Forbidden West</h4>
+            <p><span>De</span> Sony Interactive Entertainment</p>
+            <p class="grade">9.7</p>
+          </div>
+      </div>
       </section>
       <section id="signup" class="container">
         <h2>Faça sua inscrição</h2>
@@ -147,14 +151,17 @@
               <input type="checkbox" name="sendnews" id="sendnews">
               <label for="sendnews">Desejo receber novidades</label>
             </div>
-            <input class="button-submit" type="submit" value="Enviar">
-            <input class="button-reset" type="reset" value="Limpar">
+            <div class="buttons-area">
+              <input class="button-submit" type="submit" value="Enviar">
+              <input class="button-reset" type="reset" value="Limpar">
+            </div>
+           
         </form>
       </div>
       </section>
     </main>
-    <footer>
-      <div class="container"> 
+    <footer class="footer-container">
+      <div class="container footer-content"> 
         <div>
             <div>
                 <a href="https://www.instagram.com/dsplaygames">@dsplaygames</a>
